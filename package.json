@@ -1,12 +1,11 @@
 {
   "name": "@edsilv/my-el",
+  "version": "0.0.1",
   "main": "my-el.js",
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
   },
-  "scripts": {
-
-  },
+  "scripts": {},
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
     "@polymer/test-fixture": "^4.0.2",
