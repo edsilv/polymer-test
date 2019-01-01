@@ -1,11 +1,11 @@
 {
-  "name": "my-el",
+  "name": "@edsilv/my-el",
   "main": "my-el.js",
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
   },
   "scripts": {
-    "build": "npx polymer build"
+
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.0.0-pre.19",

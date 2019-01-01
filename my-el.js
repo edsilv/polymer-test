@@ -16,12 +16,12 @@ class MyEl extends PolymerElement {
           display: block;
         }
       </style>
-      <h2>Hello [[prop1]]!</h2>
+      <h2>Hello [[name]]!</h2>
     `;
   }
   static get properties() {
     return {
-      prop1: {
+      name: {
         type: String,
         value: 'my-el',
       },
