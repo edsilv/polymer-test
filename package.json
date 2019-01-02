@@ -1,6 +1,6 @@
 {
   "name": "@edsilv/my-el",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "main": "./dist/my-el.js",
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
@@ -10,9 +10,13 @@
     "build": "npm run clean && webpack"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
     "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
     "@polymer/test-fixture": "^4.0.2",
     "@webcomponents/webcomponentsjs": "^2.0.0",
+    "babel-loader": "^8.0.4",
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2",
